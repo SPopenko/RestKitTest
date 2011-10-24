@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		357AB2EE145408BE00023801 /* libRestKitObjectMapping.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F617B145333CA002D9A8D /* libRestKitObjectMapping.a */; };
+		357AB2EF145408D200023801 /* libRestKitNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F617A145333CA002D9A8D /* libRestKitNetwork.a */; };
+		357AB2F0145408DF00023801 /* libRestKitSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F617C145333CA002D9A8D /* libRestKitSupport.a */; };
+		357AB2F1145408FF00023801 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F6177145333A6002D9A8D /* libxml2.dylib */; };
+		357AB2F21454090200023801 /* libRestKitJSONParserJSONKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F6179145333CA002D9A8D /* libRestKitJSONParserJSONKit.a */; };
+		359F614B14531821002D9A8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F614A14531821002D9A8D /* UIKit.framework */; };
+		359F614D14531821002D9A8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F614C14531821002D9A8D /* Foundation.framework */; };
+		359F614F14531821002D9A8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F614E14531821002D9A8D /* CoreGraphics.framework */; };
+		359F615514531821002D9A8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 359F615314531821002D9A8D /* InfoPlist.strings */; };
+		359F615814531821002D9A8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 359F615714531821002D9A8D /* main.m */; };
+		359F615B14531821002D9A8D /* RestKitTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 359F615A14531821002D9A8D /* RestKitTestAppDelegate.m */; };
+		359F615E14531821002D9A8D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 359F615C14531821002D9A8D /* MainWindow.xib */; };
+		359F616114531822002D9A8D /* RestKitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 359F616014531822002D9A8D /* RestKitTestViewController.m */; };
+		359F616414531822002D9A8D /* RestKitTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 359F616214531822002D9A8D /* RestKitTestViewController.xib */; };
+		359F617014533373002D9A8D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F616F14533373002D9A8D /* CFNetwork.framework */; };
+		359F617214533385002D9A8D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F617114533385002D9A8D /* CoreData.framework */; };
+		359F617414533390002D9A8D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F617314533390002D9A8D /* MobileCoreServices.framework */; };
+		359F61761453339C002D9A8D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F61751453339C002D9A8D /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		359F614614531821002D9A8D /* RestKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		359F614A14531821002D9A8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		359F614C14531821002D9A8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		359F614E14531821002D9A8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		359F615214531821002D9A8D /* RestKitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RestKitTest-Info.plist"; sourceTree = "<group>"; };
+		359F615414531821002D9A8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		359F615614531821002D9A8D /* RestKitTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RestKitTest-Prefix.pch"; sourceTree = "<group>"; };
+		359F615714531821002D9A8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		359F615914531821002D9A8D /* RestKitTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestKitTestAppDelegate.h; sourceTree = "<group>"; };
+		359F615A14531821002D9A8D /* RestKitTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestKitTestAppDelegate.m; sourceTree = "<group>"; };
+		359F615D14531821002D9A8D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		359F615F14531821002D9A8D /* RestKitTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestKitTestViewController.h; sourceTree = "<group>"; };
+		359F616014531822002D9A8D /* RestKitTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestKitTestViewController.m; sourceTree = "<group>"; };
+		359F616314531822002D9A8D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RestKitTestViewController.xib; sourceTree = "<group>"; };
+		359F616F14533373002D9A8D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		359F617114533385002D9A8D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		359F617314533390002D9A8D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		359F61751453339C002D9A8D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		359F6177145333A6002D9A8D /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		359F6179145333CA002D9A8D /* libRestKitJSONParserJSONKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRestKitJSONParserJSONKit.a; sourceTree = SOURCE_ROOT; };
+		359F617A145333CA002D9A8D /* libRestKitNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRestKitNetwork.a; sourceTree = SOURCE_ROOT; };
+		359F617B145333CA002D9A8D /* libRestKitObjectMapping.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRestKitObjectMapping.a; sourceTree = SOURCE_ROOT; };
+		359F617C145333CA002D9A8D /* libRestKitSupport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRestKitSupport.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		359F614314531820002D9A8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359F61761453339C002D9A8D /* SystemConfiguration.framework in Frameworks */,
+				359F617414533390002D9A8D /* MobileCoreServices.framework in Frameworks */,
+				359F617214533385002D9A8D /* CoreData.framework in Frameworks */,
+				359F617014533373002D9A8D /* CFNetwork.framework in Frameworks */,
+				359F614B14531821002D9A8D /* UIKit.framework in Frameworks */,
+				359F614D14531821002D9A8D /* Foundation.framework in Frameworks */,
+				359F614F14531821002D9A8D /* CoreGraphics.framework in Frameworks */,
+				357AB2EE145408BE00023801 /* libRestKitObjectMapping.a in Frameworks */,
+				357AB2EF145408D200023801 /* libRestKitNetwork.a in Frameworks */,
+				357AB2F0145408DF00023801 /* libRestKitSupport.a in Frameworks */,
+				357AB2F1145408FF00023801 /* libxml2.dylib in Frameworks */,
+				357AB2F21454090200023801 /* libRestKitJSONParserJSONKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		359F613B14531820002D9A8D = {
+			isa = PBXGroup;
+			children = (
+				359F615014531821002D9A8D /* RestKitTest */,
+				359F614914531821002D9A8D /* Frameworks */,
+				359F614714531821002D9A8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		359F614714531821002D9A8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				359F614614531821002D9A8D /* RestKitTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		359F614914531821002D9A8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				359F6179145333CA002D9A8D /* libRestKitJSONParserJSONKit.a */,
+				359F617A145333CA002D9A8D /* libRestKitNetwork.a */,
+				359F617B145333CA002D9A8D /* libRestKitObjectMapping.a */,
+				359F617C145333CA002D9A8D /* libRestKitSupport.a */,
+				359F6177145333A6002D9A8D /* libxml2.dylib */,
+				359F61751453339C002D9A8D /* SystemConfiguration.framework */,
+				359F617314533390002D9A8D /* MobileCoreServices.framework */,
+				359F617114533385002D9A8D /* CoreData.framework */,
+				359F616F14533373002D9A8D /* CFNetwork.framework */,
+				359F614A14531821002D9A8D /* UIKit.framework */,
+				359F614C14531821002D9A8D /* Foundation.framework */,
+				359F614E14531821002D9A8D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		359F615014531821002D9A8D /* RestKitTest */ = {
+			isa = PBXGroup;
+			children = (
+				359F615914531821002D9A8D /* RestKitTestAppDelegate.h */,
+				359F615A14531821002D9A8D /* RestKitTestAppDelegate.m */,
+				359F615C14531821002D9A8D /* MainWindow.xib */,
+				359F615F14531821002D9A8D /* RestKitTestViewController.h */,
+				359F616014531822002D9A8D /* RestKitTestViewController.m */,
+				359F616214531822002D9A8D /* RestKitTestViewController.xib */,
+				359F615114531821002D9A8D /* Supporting Files */,
+			);
+			path = RestKitTest;
+			sourceTree = "<group>";
+		};
+		359F615114531821002D9A8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				359F615214531821002D9A8D /* RestKitTest-Info.plist */,
+				359F615314531821002D9A8D /* InfoPlist.strings */,
+				359F615614531821002D9A8D /* RestKitTest-Prefix.pch */,
+				359F615714531821002D9A8D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		359F614514531820002D9A8D /* RestKitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359F616714531822002D9A8D /* Build configuration list for PBXNativeTarget "RestKitTest" */;
+			buildPhases = (
+				359F61821453357F002D9A8D /* Build Rest Kit */,
+				359F614214531820002D9A8D /* Sources */,
+				359F614314531820002D9A8D /* Frameworks */,
+				359F614414531820002D9A8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestKitTest;
+			productName = RestKitTest;
+			productReference = 359F614614531821002D9A8D /* RestKitTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		359F613D14531820002D9A8D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 359F614014531820002D9A8D /* Build configuration list for PBXProject "RestKitTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 359F613B14531820002D9A8D;
+			productRefGroup = 359F614714531821002D9A8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				359F614514531820002D9A8D /* RestKitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		359F614414531820002D9A8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359F615514531821002D9A8D /* InfoPlist.strings in Resources */,
+				359F615E14531821002D9A8D /* MainWindow.xib in Resources */,
+				359F616414531822002D9A8D /* RestKitTestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		359F61821453357F002D9A8D /* Build Rest Kit */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Rest Kit";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "xcodebuild -workspace restkittest.xcworkspace -scheme \"RestKit\" -configuration $CONFIGURATION -sdk $SDK_NAME build";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		359F614214531820002D9A8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359F615814531821002D9A8D /* main.m in Sources */,
+				359F615B14531821002D9A8D /* RestKitTestAppDelegate.m in Sources */,
+				359F616114531822002D9A8D /* RestKitTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		359F615314531821002D9A8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				359F615414531821002D9A8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		359F615C14531821002D9A8D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				359F615D14531821002D9A8D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		359F616214531822002D9A8D /* RestKitTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				359F616314531822002D9A8D /* en */,
+			);
+			name = RestKitTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		359F616514531822002D9A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		359F616614531822002D9A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		359F616814531822002D9A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RestKitTest/RestKitTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/Framework/RestKit/Build";
+				INFOPLIST_FILE = "RestKitTest/RestKitTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		359F616914531822002D9A8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RestKitTest/RestKitTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/Framework/RestKit/Build";
+				INFOPLIST_FILE = "RestKitTest/RestKitTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		359F614014531820002D9A8D /* Build configuration list for PBXProject "RestKitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359F616514531822002D9A8D /* Debug */,
+				359F616614531822002D9A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		359F616714531822002D9A8D /* Build configuration list for PBXNativeTarget "RestKitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359F616814531822002D9A8D /* Debug */,
+				359F616914531822002D9A8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 359F613D14531820002D9A8D /* Project object */;
+}
